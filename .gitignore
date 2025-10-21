@@ -1,0 +1,29 @@
+# Ignore large model files
+*.keras
+*.h5
+*.pth
+
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore output directories with large files
+model/*/output/
+model/output/
