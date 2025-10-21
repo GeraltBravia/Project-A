@@ -1,0 +1,2 @@
+thuat_toan,GPU,thoi_gian_huan_luyen (s),thoi_gian_huan_luyen (m),accuracy,F1_score,recall,precision,thoi_gian_du_doan_1_mau (s),model_size (MB),ngay_thuc_hien
+SwinTransformer_NewImpl_fixed,CPU,106421.98,1773.7,0.3241,0.1587,0.3241,0.1051,0.027571,318.8,2025-08-30 01:27:10

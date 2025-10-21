@@ -1,0 +1,4 @@
+thuat_toan,GPU,thoi_gian_huan_luyen (s),thoi_gian_huan_luyen (m),accuracy,F1_score,recall,precision,thoi_gian_du_doan_1_mau (s),model_size (MB),ngay_thuc_hien
+EfficientNetV2B0_Augmented,CPU,7119.43,118.66,0.9890,0.9889,0.9890,0.9891,0.005698,23.61,2025-08-19 12:48:31
+EfficientNetV2B0_Augmented,CPU,8634.88,143.91,0.9902,0.9903,0.9902,0.9904,0.007852,23.61,2025-08-28 14:09:56
+EfficientNetV2B0_Augmented,CPU,4966.17,82.77,0.9867,0.9866,0.9867,0.9870,0.005925,23.61,2025-09-01 15:58:31
