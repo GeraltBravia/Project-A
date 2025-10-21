@@ -1,0 +1,2 @@
+thuat_toan,GPU,thoi_gian_huan_luyen (s),thoi_gian_huan_luyen (m),accuracy,F1_score,recall,precision,thoi_gian_du_doan_1_mau (s),model_size (MB),ngay_thuc_hien
+MalwareDetection_Text_LSTM,CPU,397.76,6.63,0.9949,0.9949,0.9985,0.9913,0.002959,16.36,2025-10-21 16:24:15
