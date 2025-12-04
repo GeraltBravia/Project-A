@@ -4,7 +4,7 @@ import sys
 
 BASE = Path(__file__).resolve().parent
 merged_path = BASE / "merged.csv"
-# If merged.csv doesn't exist, try to build it from the known files
+
 if not merged_path.exists():
     files = [BASE / "XSS_dataset.csv", BASE / "Modified_SQL_Dataset.csv", BASE / "DDOS_dataset.csv"]
     dfs = []
@@ -12,7 +12,7 @@ if not merged_path.exists():
         if not p.exists():
             print(f"WARNING: input not found: {p}")
             continue
-        # try common encodings
+ 
         for enc in ("utf-8", "cp1252", "latin1"):
             try:
                 dfp = pd.read_csv(p, engine='python', encoding=enc, on_bad_lines='skip')
@@ -34,7 +34,7 @@ if not merged_path.exists():
 else:
     df = pd.read_csv(merged_path, engine='python')
 
-# Ensure Label column exists (case-insensitive)
+
 label_col = None
 for c in df.columns:
     if str(c).lower() == 'label':

@@ -1,3 +1,0 @@
-thuat_toan,GPU,thoi_gian_huan_luyen (s),thoi_gian_huan_luyen (m),accuracy,F1_score,recall,precision,thoi_gian_du_doan_1_mau (s),model_size (MB),ngay_thuc_hien
-MobileViT_XXS_FromScratch,CPU,30197.12,503.29,0.9857,0.9858,0.9857,0.9866,0.016167,18.01,2025-08-24 17:23:57
-MobileViT_XXS_FromScratch,CPU,21163.61,352.73,0.9503,0.9532,0.9503,0.9644,0.016863,18.01,2025-09-02 01:17:10

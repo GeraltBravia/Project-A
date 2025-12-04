@@ -1,2 +1,5 @@
 thuat_toan,GPU,thoi_gian_huan_luyen (s),thoi_gian_huan_luyen (m),accuracy,F1_score,recall,precision,thoi_gian_du_doan_1_mau (s),model_size (MB),ngay_thuc_hien
 MalwareDetection_Text_LSTM,CPU,397.76,6.63,0.9949,0.9949,0.9985,0.9913,0.002959,16.36,2025-10-21 16:24:15
+MalwareDetection_Text_LSTM,CPU,378.34,6.31,0.9945,0.9945,0.9912,0.9978,0.003087,16.36,2025-12-05 03:08:07
+MalwareDetection_Text_LSTM,CPU,373.35,6.22,0.9956,0.9956,0.9934,0.9978,0.003799,16.36,2025-12-05 03:17:38
+MalwareDetection_Text_LSTM,CPU,388.64,6.48,0.9945,0.9945,0.9912,0.9978,0.003366,16.36,2025-12-05 03:54:41
