@@ -105,11 +105,11 @@ def main():
     texts = df['Sentence'].values
     labels = df['attack_label'].values
 
-    # Split data
+    # Split data (70-15-15)
     train_texts, temp_texts, train_labels, temp_labels = train_test_split(
-        texts, labels, test_size=0.2, random_state=42, stratify=labels)
+        texts, labels, test_size=0.3, random_state=42, stratify=labels)  # 70% train, 30% temp
     val_texts, test_texts, val_labels, test_labels = train_test_split(
-        temp_texts, temp_labels, test_size=0.5, random_state=42, stratify=temp_labels)
+        temp_texts, temp_labels, test_size=0.5, random_state=42, stratify=temp_labels)  # 15% val, 15% test
 
     print(f"Train: {len(train_texts)}, Val: {len(val_texts)}, Test: {len(test_texts)}")
 
